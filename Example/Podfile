@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ModuleRefresh_Example' do
+  pod 'ModuleRefresh', :path => '../'
+
+  target 'ModuleRefresh_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
